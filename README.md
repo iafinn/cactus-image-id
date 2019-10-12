@@ -17,3 +17,13 @@ Here is a random sample of the test set results for the CNN and Logistic regress
 
 ## Logistic Regression
 ![LR](https://github.com/iafinn/cactus-image-id/blob/master/report/figures/LR.png)
+
+# Directory Overview
+
+```
+├───data
+├───docs            <- info on AWS EC2 access
+├───models          <- Jupyter NBs for LR and CNN
+└───report          <- The final results of the two models
+    └───figures
+```
