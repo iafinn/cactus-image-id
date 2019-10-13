@@ -7,7 +7,7 @@ I developed two models for identifying columnar cactus in aerial photographs. In
 | LR (Scikit-learn)   | 0.900(6)     | 0.940(7)      | 0.927(6)   | 0.933(4) |
 | 5-layer CNN (TensorFlow) | 0.98(1) | 0.99(1)     | 0.99(2)   | 0.993(8) |
 
-Here are some sample results for the two models in the test set. It is clear that the CNN has higher certainty in its predictions as compared to logistic regression. The cactus label is given as "Cactus = 1" for an image containing cactus and "Cactus = 0" for an image not containing cactus. The output of the models are given as "Prediction = ". For the final prediction, these values are rounded to the nearest 0 or 1 (cutoff=0.5). This is an ok default choice for situations that don't favor the precision or recall.
+Here are some sample results for the two models in the test set. It is clear that the CNN has higher certainty in its predictions as compared to logistic regression. The cactus label is given as "Cactus = 1" for an image containing cactus and "Cactus = 0" for an image not containing cactus. The output of the models are given as "Prediction = ". For the final prediction, these values are rounded to the nearest 0 or 1 (cutoff=0.5).
 
 ## Convolutional Neural Network
 ![CNN](https://github.com/iafinn/cactus-image-id/blob/master/report/figures/CNN.png)
